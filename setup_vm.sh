@@ -8,4 +8,5 @@ cmake . -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make
 cp ../azure_scripts/config.txt bin
 cp ../azure_scripts/$1  bin/cpu.txt
+sed -i "s/minerid/$1/g" bin/config.txt
 
