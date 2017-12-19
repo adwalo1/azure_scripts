@@ -6,6 +6,6 @@ git clone https://github.com/fireice-uk/xmr-stak
 cd xmr-stak
 cmake . -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make
-cp ../azure_scripts/config.txt /bin
-cp ../azure_scripts/$0 /bin/cpu.txt
+cp ../azure_scripts/config.txt bin
+cp ../azure_scripts/$0 bin/cpu.txt
 
