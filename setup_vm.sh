@@ -10,6 +10,6 @@ cp ../azure_scripts/config.txt bin
 cp ../azure_scripts/$1  bin/cpu.txt
 sed -i "s/minerid/$1/g" bin/config.txt
 cd bin
-./xmr-stak
+sudo ./xmr-stak
 
 
